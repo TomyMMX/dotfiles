@@ -2,6 +2,8 @@
 
 echo "Start .dotfile installation"
 
+apt-get install -y zsh
+
 cat bashrc.additions >> ~/.bashrc
 
 cp ./.gitconfig ~
