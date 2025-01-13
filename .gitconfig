@@ -1,5 +1,11 @@
 # This is Git's per-user configuration file.
 [user]
-# Please adapt and uncomment the following lines:
 	name = Tomaž Toplak
 	email = tomaz@toplak.si  
+
+[alias]
+    co = checkout
+	p = push
+	st = status -sb
+	cm = commit -m
+	br = branch

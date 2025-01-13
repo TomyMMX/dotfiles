@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Start .dotfile installation"
+
 cat bashrc.additions >> ~/.bashrc
 
 cp ./.gitconfig ~
@@ -32,3 +34,5 @@ mv ~/.zshrc.bak ~/.zshrc
 # update theme
 sed -i '/^ZSH_THEME/c\ZSH_THEME="bira"' ~/.zshrc
 ########################################################################################################################
+
+echo ".dotfile installation COMPLETE."
