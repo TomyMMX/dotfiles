@@ -3,6 +3,9 @@
 	name = Tomaž Toplak
 	email = tomaz@toplak.si  
 
+[core]
+	editor = code --wait
+	
 [alias]
     co = checkout
 	p = push
